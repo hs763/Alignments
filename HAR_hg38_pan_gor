@@ -1,4 +1,5 @@
-cd /data2/hanna/alignments
+#xeon 
+#/data2/hanna/alignments
 #python
 
 # Define the header and DNA sequence
@@ -30,8 +31,6 @@ filename = "hg38_dna.fasta"
 save_as_fasta(header, dna_sequence, filename)
 
 print(f"DNA sequence saved as {filename}")
-
-
 
 
 # Define the header and DNA sequence
